@@ -39,6 +39,6 @@ int main(int arc, char* argv[]) {
 
 ## License
 
-Significant portions of the code were derived from Pololu's USB SDK; their license is included in `LICENSE-Pololu.txt`.
+Significant portions of the code were derived from Pololu's USB SDK; their license is included in [LICENSE-Pololu.txt](https://github.com/pdehn/libmaestro/blob/master/LICENSE-Pololu.txt).
 
-The same license conditions apply to the rest of this code; see `LICENSE.txt`.
+The same license conditions apply to the rest of this code; see [LICENSE.txt](https://github.com/pdehn/libmaestro/blob/master/LICENSE.txt).
