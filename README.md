@@ -1,6 +1,15 @@
 # libmaestro
 
-This is a library for controlling Pololu Maestro servo controllers. It attempts to wrap the useage in a more convenient form for C++ projects.
+This is a library for controlling Pololu Maestro servo controllers. It attempts to wrap the usage in a more convenient form for C++ projects.
+
+## Build
+
+```sh
+$ cd build
+$ cmake ..
+$ make
+$ make install
+```
 
 ## Basic Use
 
@@ -23,6 +32,8 @@ int main(int arc, char* argv[]) {
 
     // set position
     maestro.setTarget(0 /* servo */, 4000 /* position in 0.25µs */);
+
+    return 0;
 }
 ```
 
