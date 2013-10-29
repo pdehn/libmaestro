@@ -25,7 +25,7 @@ int main(int arc, char* argv[]) {
     Maestro maestro;
 
     // set maximum speed
-    maestro.setSpeed(0 /* servo */, 100 /* speed in 0.25µs/10ms / 10ms */);
+    maestro.setSpeed(0 /* servo */, 100 /* speed in 0.25µs/10ms */);
 
     // set maximum acceleration
     maestro.setAcceleration(0 /* servo */, 255 /* accel in 0.25µs/10ms/80ms */);
